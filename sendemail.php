@@ -17,8 +17,8 @@
 ========================================================================== */
 
 // Enter your mail addres here
-$mailfrom = "noreply@foundstrap.com";
-$mailto = "foundstrap@gmail.com";
+$mailfrom = "info@joseanlandscaping.com";
+$mailto = "info@joseanlandscaping.com";
 $replyto = $mailto;
 
 $name = ucwords($_POST["name"]);
@@ -41,7 +41,7 @@ if (strlen($name) < 1) {
     $email_message .= "Subject : " . $subject . "\r\n";
     $email_message .= "Message : " . $message . "\r\n";
     $email_message .= "-- \r\n";
-    $email_message .= "This e-mail was sent from a contact form on Zengarden - HTML Contact Form (https://themedemo.foundstrap.com/zengarden)";
+    $email_message .= "This e-mail was sent from a contact form on JoseanLandscaping - HTML Contact Form (https://themedemo.foundstrap.com/JoseanLandscaping)";
 
     // To send HTML mail, the Content-type header must be set
     $headers = "MIME-Version: 1.0" . "\r\n";
@@ -52,8 +52,8 @@ if (strlen($name) < 1) {
     $headers .= "Reply-To: " . $name . " <" . $email . ">" . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion();
 
-    // to zengarden
-    mail($mailto, "[Zengarden] Contact Form - " . $subject, $email_message, $headers);
+    // to JoseanLandscaping
+    mail($mailto, "[JoseanLandscaping] Contact Form - " . $subject, $email_message, $headers);
 
     /* ------------------------------------------------------------------------------------------------ */
     // to sender
@@ -64,14 +64,14 @@ if (strlen($name) < 1) {
 
     // Additional headers
     $headers_sender .= "From: Foundstrap <" . $mailfrom . ">" . "\r\n";
-    $headers_sender .= "Reply-To: Zengarden <" . $replyto . ">" . "\r\n";
+    $headers_sender .= "Reply-To: JoseanLandscaping <" . $replyto . ">" . "\r\n";
     $headers_sender .= "X-Mailer: PHP/" . phpversion();
 
     $email_message_sender = "Hi " . $name . ",\r\n";
     $email_message_sender .= "Thank you for reaching us, we will reply back to you ASAP\r\n";
     $email_message_sender .= "-- \r\n";
-    $email_message_sender .= "This e-mail was sent from a contact form on Zengarden (https://themedemo.foundstrap.com/zengarden)";
+    $email_message_sender .= "This e-mail was sent from a contact form on JoseanLandscaping";
 
-    mail($email, "[Zengarden] Contact Form - " . $subject, $email_message_sender, $headers_sender);
+    mail($email, "[JoseanLandscaping] Contact Form - " . $subject, $email_message_sender, $headers_sender);
 }
 ?>
