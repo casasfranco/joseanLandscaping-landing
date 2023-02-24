@@ -1023,7 +1023,7 @@ ul.owl-carousel {
     left: 0;
     right: 0;
     background: none;
-    height: 136px;
+    height: 140px;
     z-index: 999;
 }
 
@@ -1073,11 +1073,11 @@ ul.owl-carousel {
 }
 
 .header-logo {
-    padding: 28px 0;
+    padding: 18px 0;
     float: left;
 }
 .header-logo img {
-    height: 40px;
+    height: 90px;
     width: auto;
 }
 .header-logo .logo-responsive,
@@ -1348,7 +1348,7 @@ ul.owl-carousel {
 #header .header-main.header-on-sticky {
     background-color: #fff;
     position: fixed;
-    height: 73px;
+    height: 80px;
     display: block;
     width: 100%;
     top: 0;
@@ -1373,7 +1373,7 @@ ul.owl-carousel {
     top: 73px;
 }
 #header .header-main.header-on-sticky .header-logo {
-    padding: 16px 0 17px;
+    padding: 0px 0 17px;
 }
 #header .header-main.header-on-sticky .header-logo img {
     display: none;
