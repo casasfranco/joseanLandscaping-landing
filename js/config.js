@@ -1,12 +1,12 @@
 /* --------------------------------------------------------------------------
- * Foundstrap     : Zengarden - Gardening and Landscaping HTML Template
+ * Foundstrap     : JoseanLandscaping - Gardening and Landscaping HTML Template
  *
  * file           : config.js
  * Version        : 1.2
  * Author         : Foundstrap - team
  * Author URI     : http://foundstrap.com
  *
- * Foundstrap Studio. Copyright 2021. All Rights Reserved.
+ * . Copyright 2021. All Rights Reserved.
  * -------------------------------------------------------------------------- */
 
 /* --------------------------------------------------------------------------
