@@ -3579,7 +3579,7 @@ ul.owl-carousel {
     color: #717173;
     font-size: 13px;
     line-height: 24px;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 #footer strong,
 #footer a {
@@ -3607,10 +3607,10 @@ ul.owl-carousel {
 }
 
 .footer-logo {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .footer-logo img {
-    width: 220px;
+    width: 150px;
 }
 
 .footer-bottom {
